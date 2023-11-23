@@ -20,19 +20,10 @@
 
         .container {
             display: inline-block;
-
-            margin-top: 1.5%;
         }
 
         .containerChild {
             display: flex;
-
-
-            padding-top: 1.5vh;
-            padding-right: 1vw;
-            padding-bottom: 1.5vh;
-            padding-left: 1vw;
-
             float: left;
         }
 
@@ -151,6 +142,15 @@
         a.a2:visited {
             text-decoration: none;
         }
+
+        .fade-in2 {
+            opacity: 0;
+            transition: opacity 250ms ease-in;
+        }
+
+        .fade-in2.appear {
+            opacity: 1;
+        }
     </style>
 </head>
 
@@ -158,26 +158,26 @@
     <h1> <a class = "a2" href = "Home.html"> CONTACT ME </a> </h1>
     <div class="container">
         <div class="containerChild" style="flex-direction: column;">
-            <div class="about-me">
+            <div class="fade-in2 about-me">
                 <h2> EMAIL <p> Personal: shriyarbiddala@gmail.com</p>
                     <p>School: sbiddala@umich.edu </p>
                 </h2>
             </div>
             <br> </br>
 
-            <div class="about-me" style="display: inline-block; ">
+            <div class="fade-in2 about-me" style="display: inline-block; ">
                 <h2> LINKEDIN <p> <a href="https://www.linkedin.com/in/shriya-biddala/">
                             https://www.linkedin.com/in/shriya-biddala/</a></p>
                 </h2>
             </div>
             <br> </br>
-            <div class="about-me">
+            <div class="fade-in2 about-me">
                 <h2> GITHUB <p> <a href="https://github.com/shriyabi"> https://github.com/shriyabi </a></p>
                 </h2>
             </div>
         </div>
         <div class="containerChild" style="float: inherit;">
-            <div class="image"> <img src="IMG_0840.JPG"
+            <div class="fade-in2 image"> <img src="IMG_0840.JPG"
                     style="width: 750px; height: 925px; display: inline; margin-right: 5vw;"> </div>
         </div>
     </div>
