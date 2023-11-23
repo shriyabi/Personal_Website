@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+        body {
+            background-color: #023047;
+            /*#0365A6;*/
+            overflow: scroll;
+        }
+
+        .container {
+            display: inline-block;
+
+            margin-top: 1.5%;
+        }
+
+        .containerChild {
+            display: flex;
+
+
+            padding-top: 1.5vh;
+            padding-right: 1vw;
+            padding-bottom: 1.5vh;
+            padding-left: 1vw;
+
+            float: left;
+        }
+
+        .title {
+            margin-top: 35vh;
+            margin-bottom: 50vh;
+        }
+
+        h1 {
+            text-align: center;
+            color: #dcf4fc;
+            font-family: 'Dosis', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Raleway', sans-serif;
+            font-size: 60px;
+        }
+
+        h2 {
+            font-family: 'Dosis', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Raleway', sans-serif;
+            font-family: 'Roboto Condensed', sans-serif;
+            color: #FB8500;
+            padding: 5px;
+            font-size: 40px;
+        }
+
+        .left-oriented {
+            padding: 3px;
+            display: inline-block;
+            width: 50vw;
+            padding: 5px;
+            margin-top: 3vw;
+            border-radius: 10px;
+            border-style: double;
+            border-color: #219EBC;
+            border-width: thick;
+            background-color: #023047;
+            padding: 20px;
+            overflow: scroll;
+            align-self: left;
+            margin-left: 5vw;
+
+        }
+
+        .left-oriented:hover {
+            background-color: #023047;
+            color: #8ECAE6;
+            border-color: #8ECAE6;
+            transition: 0.2s;
+        }
+
+        .left-oriented:hover {
+            background-color: #219EBC;
+            border-color: #023047;
+            border-width: thick;
+            transition: 0.2s;
+        }
+
+
+        .right-oriented {
+            margin-top: 5vh;
+            padding: 5px;
+            display: block;
+            width: 50vw;
+            padding: 5px;
+            border-radius: 10px;
+            border-style: double;
+            border-color: #219EBC;
+            border-width: thick;
+            background-color: #023047;
+            padding: 20px;
+            overflow: scroll;
+            align-self: right;
+            text-align: right;
+            margin-right: 5vw;
+            float: right;
+
+        }
+
+        .right-oriented:hover {
+            background-color: #219EBC;
+            border-color: #023047;
+            border-width: thick;
+            transition: 0.2s;
+        }
+
+        .right-oriented:hover {
+            background-color: #219EBC;
+            border-color: #023047;
+            border-width: thick;
+            transition: 0.2s;
+        }
+
+        .image {
+            padding-top: 50px;
+            padding-right: 30px;
+            padding-bottom: 50px;
+            padding-left: 80px;
+        }
+
+        .fade-in1 {
+            opacity: 0;
+            transition: opacity 250ms;
+            transition-delay: 3s;
+
+        }
+
+        .fade-in1.appear {
+            opacity: 1;
+        }
+
+        .fade-in2 {
+            opacity: 0;
+            transition: opacity 250ms ease-in;
+        }
+
+        .fade-in2.appear {
+            opacity: 1;
+        }
+
+        p {
+            font-family: 'Dosis', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Raleway', sans-serif;
+            font-family: 'Roboto Condensed', sans-serif;
+            color: #FFB703;
+            font-size: 30px;
+        }
+
+        /*can divide this up into classes for headers, etc*/
+        a:link {
+            color: #FB8500;
+            ;
+        }
+
+        a:visited {
+            color: #FB8500;
+            ;
+        }
+
+        a:hover {
+            color: #FFB703;
+        }
+
+        a:active {
+            color: #FB8500;
+            ;
+        }
+
+        a:link,
+        a:visited {
+            text-decoration: none;
+        }
+
+        a.a2:link {
+            color: #dcf4fc;
+        }
+
+        a.a2:visited {
+            color: #dcf4fc;
+        }
+
+        a.a2:hover {
+            color: #219EBC;
+        }
+
+        a.a2:active {
+            color: #dcf4fc;
+        }
+
+        a.a2:link,
+        a.a2:visited {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> <a class="a2" href="Home.html"> PROJECTS </a> </h1>
+    <div class="fade-in2 left-oriented" style="height: 30vh;">
+        <h2> Chatbot for Mental Health Awareness </h2>
+        <p> A conversational A.I.-based agent utilizing generative learning and Google Search API to provide responses
+            to mental health questions and respective links to resources. ADD VIDEO OF DEMO </p>
+    </div>
+    <div class="fade-in2 right-oriented" style="height: 30vh;">
+        <h2> BioKnee 1.0 </a> </h2>
+        <p> A mechanical knee developed with and sponsored by Texas Instruments technology in order to help with knee
+            rehabilitation, especially with ACL tears. </p>
+    </div>
+    <div class="fade-in2 left-oriented" style="height: 30vh;"> <a
+            href=" https://www.aspirations.org/people/shriya-b/98595/">
+            <h2> A.I. Handwriting Tranformer Model
+        </a> </h2>
+        <p> Awarded to high achieving women/non binary tech enthusiasts in Colorado who have demonstrated a notable
+            aptitude, engagement, and achievement with computing. </p>
+    </div>
+    <div class="fade-in2 right-oriented" style="height: 30vh;">
+        <h2> OneVote </a> </h2>
+        <p> A web-application aiming to raise awareness about local elections and policies via providing young adults
+            with a conversational agent to ask questions and a page to direct them to local polling stations, elections,
+            and websites of current and new candidates. </p>
+    </div>
+
+    <div class="fade-in2 left-oriented" style="height: 30vh;">
+        <h2> PenguJump </h2>
+        <p> An interactive game developed with GreenFoot API and Java utilizing object-oriented programming and
+            inheritance. </p>
+    </div>
+
+
+    <script src=" Home.js">
+    </script>
+</body>
+
+</html>
