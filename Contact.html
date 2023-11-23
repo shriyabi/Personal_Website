@@ -92,41 +92,6 @@
             transition: 0.2s;
         }
 
-
-        .skills {
-            margin-top: 5vh;
-            padding: 5px;
-            display: block;
-            width: 30vw;
-            padding: 5px;
-            border-radius: 10px;
-            border-style: double;
-            border-color: #219EBC;
-            border-width: thick;
-            background-color: #023047;
-            padding: 20px;
-            overflow: scroll;
-            align-self: right;
-            text-align: right;
-            margin-right: 5vw;
-            float: right;
-
-        }
-
-        .skills:hover {
-            background-color: #219EBC;
-            border-color: #023047;
-            border-width: thick;
-            transition: 0.2s;
-        }
-
-        .skills:hover {
-            background-color: #219EBC;
-            border-color: #023047;
-            border-width: thick;
-            transition: 0.2s;
-        }
-
         .image {
             padding-top: 50px;
             padding-right: 30px;
@@ -134,33 +99,6 @@
             padding-left: 80px;
         }
 
-        .fade-in1 {
-            opacity: 0;
-            transition: opacity 250ms;
-        }
-
-        .fade-in1.appear {
-            opacity: 1;
-        }
-
-        .fade-in2 {
-            opacity: 0;
-            transition: opacity 250ms ease-in;
-        }
-
-        .fade-in2.appear {
-            opacity: 1;
-        }
-
-        .fade-in3 {
-            opacity: 0;
-            transition: opacity 250ms;
-
-        }
-
-        .fade-in3.appear {
-            opacity: 1;
-        }
 
         p {
             font-family: 'Dosis', sans-serif;
@@ -169,32 +107,6 @@
             font-family: 'Roboto Condensed', sans-serif;
             color: #FFB703;
             font-size: 30px;
-        }
-
-        .additional-info {
-            margin-top: 5vh;
-            padding: 5px;
-            display: block;
-            width: 90vw;
-            padding: 5px;
-            border-radius: 10px;
-            border-style: double;
-            border-color: #219EBC;
-            border-width: thick;
-            background-color: #023047;
-            padding: 20px;
-            overflow: scroll;
-            margin-right: 5vw;
-            float: center;
-            margin-left: 5vw;
-            display: inline-block;
-        }
-
-        .additional-info:hover {
-            background-color: #219EBC;
-            border-color: #023047;
-            border-width: thick;
-            transition: 0.2s;
         }
 
         a:link {
@@ -217,37 +129,59 @@
         a:visited {
             text-decoration: none;
         }
+
+
+        a.a2:link {
+            color: #dcf4fc;
+        }
+
+        a.a2:visited {
+            color: #dcf4fc;
+        }
+
+        a.a2:hover {
+            color: #219EBC;
+        }
+
+        a.a2:active {
+            color: #dcf4fc;
+        }
+
+        a.a2:link,
+        a.a2:visited {
+            text-decoration: none;
+        }
     </style>
 </head>
 
 <body>
-    <h1>CONTACT ME</h1>
+    <h1> <a class = "a2" href = "Home.html"> CONTACT ME </a> </h1>
     <div class="container">
         <div class="containerChild" style="flex-direction: column;">
-            <div class="fade-in1 about-me">
+            <div class="about-me">
                 <h2> EMAIL <p> Personal: shriyarbiddala@gmail.com</p>
                     <p>School: sbiddala@umich.edu </p>
                 </h2>
             </div>
             <br> </br>
 
-            <div class="fade-in1 about-me" style="display: inline-block; ">
+            <div class="about-me" style="display: inline-block; ">
                 <h2> LINKEDIN <p> <a href="https://www.linkedin.com/in/shriya-biddala/">
                             https://www.linkedin.com/in/shriya-biddala/</a></p>
                 </h2>
             </div>
             <br> </br>
-            <div class="fade-in1 about-me">
+            <div class="about-me">
                 <h2> GITHUB <p> <a href="https://github.com/shriyabi"> https://github.com/shriyabi </a></p>
                 </h2>
             </div>
         </div>
-        <div class="containerChild" style="flex-direction: row;">
+        <div class="containerChild" style="float: inherit;">
             <div class="image"> <img src="IMG_0840.JPG"
-                    style="width: 800px; height: 1025px; display: inline; margin-right: 5vw;"> </div>
+                    style="width: 750px; height: 925px; display: inline; margin-right: 5vw;"> </div>
         </div>
     </div>
-    <script src="script.js"></script>
+    <script src="Home.js"></script>
 </body>
 
 </html>

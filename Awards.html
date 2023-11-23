@@ -7,11 +7,6 @@
     <title>Replit</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <style>
-        html {
-            height: 100%;
-            width: 100%;
-        }
-
         body {
             background-color: #023047;
             /*#0365A6;*/
@@ -60,7 +55,7 @@
             font-size: 40px;
         }
 
-        .about-me {
+        .left-oriented {
             padding: 3px;
             display: inline-block;
             width: 50vw;
@@ -78,14 +73,14 @@
 
         }
 
-        .about-me:hover {
+        .left-oriented:hover {
             background-color: #023047;
             color: #8ECAE6;
             border-color: #8ECAE6;
             transition: 0.2s;
         }
 
-        .about-me:hover {
+        .left-oriented:hover {
             background-color: #219EBC;
             border-color: #023047;
             border-width: thick;
@@ -93,7 +88,7 @@
         }
 
 
-        .skills {
+        .right-oriented {
             margin-top: 5vh;
             padding: 5px;
             display: block;
@@ -113,14 +108,14 @@
 
         }
 
-        .skills:hover {
+        .right-oriented:hover {
             background-color: #219EBC;
             border-color: #023047;
             border-width: thick;
             transition: 0.2s;
         }
 
-        .skills:hover {
+        .right-oriented:hover {
             background-color: #219EBC;
             border-color: #023047;
             border-width: thick;
@@ -137,6 +132,8 @@
         .fade-in1 {
             opacity: 0;
             transition: opacity 250ms;
+            transition-delay: 3s; 
+
         }
 
         .fade-in1.appear {
@@ -152,16 +149,6 @@
             opacity: 1;
         }
 
-        .fade-in3 {
-            opacity: 0;
-            transition: opacity 250ms;
-
-        }
-
-        .fade-in3.appear {
-            opacity: 1;
-        }
-
         p {
             font-family: 'Dosis', sans-serif;
             font-family: 'Poppins', sans-serif;
@@ -169,32 +156,6 @@
             font-family: 'Roboto Condensed', sans-serif;
             color: #FFB703;
             font-size: 30px;
-        }
-
-        .additional-info {
-            /* margin-top: 5vh; */
-            padding: 5px;
-            display: block;
-            width: 90vw;
-            padding: 5px;
-            border-radius: 10px;
-            border-style: double;
-            border-color: #219EBC;
-            border-width: thick;
-            background-color: #023047;
-            padding: 20px;
-            overflow: scroll;
-            margin-right: 5vw;
-            float: center;
-            margin-left: 5vw;
-            display: inline-block;
-        }
-
-        .additional-info:hover {
-            background-color: #219EBC;
-            border-color: #023047;
-            border-width: thick;
-            transition: 0.2s;
         }
 
         /*can divide this up into classes for headers, etc*/
@@ -222,52 +183,54 @@
             text-decoration: none;
         }
 
-        .fade-in2 {
-            opacity: 0;
-            transition: opacity 250ms ease-in;
+        a.a2:link {
+            color: #dcf4fc;
         }
 
-        .fade-in2.appear {
-            opacity: 1;
+        a.a2:visited {
+            color: #dcf4fc;
         }
 
-        .fade-in3 {
-            opacity: 0;
-            transition: opacity 250ms;
-
+        a.a2:hover {
+            color: #219EBC;
         }
 
-        .fade-in3.appear {
-            opacity: 1;
+        a.a2:active {
+            color: #dcf4fc;
+        }
+
+        a.a2:link,
+        a.a2:visited {
+            text-decoration: none;
         }
     </style>
 </head>
 
 <body>
-    <h1>HONORS</h1>
-    <div class="skills" style="height: 30vh;">
+    <h1> <a class = "a2" href = "Home.html"> HONORS </a> </h1>
+    <div class="fade-in2 right-oriented" style="height: 30vh;">
         <h2> <a href="https://www.aspirations.org/2023-national-aspirations-in-computing-award-recipients-announced/">
                 NCWIT AiC 2023 National Honorable Mention </a> </h2>
         <p> Awarded to 360 women/nonbinary technology enthusiasts from all over the country who have displayed
             exceptional achievement, aptitude, engagement, and initiative in computing. </p>
     </div>
-    <div class="about-me" style="height: 30vh;""> <h2> <a href = "
+    <div class="fade-in2 left-oriented" style="height: 30vh;"> <h2> <a href = "
         https://education.ti.com/en/promotion/codescontest/2021/"> 2021 Texas Instruments Codes Contest </a> </h2>
         <p> One of five teams who recieved an honorable mention in the finalist round, and selected from 64 teams
             through four rounds of development in the contest. </p>
     </div>
-    <div class="skills" style="height: 30vh;""> <a href = " https://www.aspirations.org/people/shriya-b/98595/">
+    <div class="fade-in2 right-oriented" style="height: 30vh;"> <a href = " https://www.aspirations.org/people/shriya-b/98595/">
         <h2> NCWIT AiC 2023 Colorado Affiliate Winner </a> </h2>
         <p> Awarded to high achieving women/non binary tech enthusiasts in Colorado who have demonstrated a notable
             aptitude, engagement, and achievement with computing. </p>
     </div>
-    <div class="fade-in2 about-me" style="height: 30vh;""> <h2> MHacks 2023 optiMize Social Impact Award: 3rd Place </a> </h2> <p> Awarded $200 for our civic-engagement focused website, OneVote. </p></div>
+    <div class= "fade-in2 left-oriented" style="height: 30vh;"> <h2> MHacks 2023 optiMize Social Impact Award: 3rd Place </a> </h2> <p> Awarded $200 for our civic-engagement focused website, OneVote. </p></div>
   
-  <div class = " fade-in2 skills" style="height: 30vh;""> <h2> Colorado Seal of Biliteracy Endorsement in Spanish </h2> <p> Awarded to students who have taken Spanish and English through Level 5 and maintained an average GPA of 3.0+ in both English and Spanish courses. </p></div>
+  <div class = "fade-in2 right-oriented" style="height: 30vh;"> <h2> Colorado Seal of Biliteracy Endorsement in Spanish </h2> <p> Awarded to students who have taken Spanish and English through Level 5 and maintained an average GPA of 3.0+ in both English and Spanish courses. </p></div>
   
  
 
-  <script src=" script.js">
+  <script src=" Home.js">
 </script>
 </body>
 
