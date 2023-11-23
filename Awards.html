@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+        html {
+            height: 100%;
+            width: 100%;
+        }
+
+        body {
+            background-color: #023047;
+            /*#0365A6;*/
+            overflow: scroll;
+        }
+
+        .container {
+            display: inline-block;
+
+            margin-top: 1.5%;
+        }
+
+        .containerChild {
+            display: flex;
+
+
+            padding-top: 1.5vh;
+            padding-right: 1vw;
+            padding-bottom: 1.5vh;
+            padding-left: 1vw;
+
+            float: left;
+        }
+
+        .title {
+            margin-top: 35vh;
+            margin-bottom: 50vh;
+        }
+
+        h1 {
+            text-align: center;
+            color: #dcf4fc;
+            font-family: 'Dosis', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Raleway', sans-serif;
+            font-size: 60px;
+        }
+
+        h2 {
+            font-family: 'Dosis', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Raleway', sans-serif;
+            font-family: 'Roboto Condensed', sans-serif;
+            color: #FB8500;
+            padding: 5px;
+            font-size: 40px;
+        }
+
+        .about-me {
+            padding: 3px;
+            display: inline-block;
+            width: 50vw;
+            padding: 5px;
+            margin-top: 3vw;
+            border-radius: 10px;
+            border-style: double;
+            border-color: #219EBC;
+            border-width: thick;
+            background-color: #023047;
+            padding: 20px;
+            overflow: scroll;
+            align-self: left;
+            margin-left: 5vw;
+
+        }
+
+        .about-me:hover {
+            background-color: #023047;
+            color: #8ECAE6;
+            border-color: #8ECAE6;
+            transition: 0.2s;
+        }
+
+        .about-me:hover {
+            background-color: #219EBC;
+            border-color: #023047;
+            border-width: thick;
+            transition: 0.2s;
+        }
+
+
+        .skills {
+            margin-top: 5vh;
+            padding: 5px;
+            display: block;
+            width: 50vw;
+            padding: 5px;
+            border-radius: 10px;
+            border-style: double;
+            border-color: #219EBC;
+            border-width: thick;
+            background-color: #023047;
+            padding: 20px;
+            overflow: scroll;
+            align-self: right;
+            text-align: right;
+            margin-right: 5vw;
+            float: right;
+
+        }
+
+        .skills:hover {
+            background-color: #219EBC;
+            border-color: #023047;
+            border-width: thick;
+            transition: 0.2s;
+        }
+
+        .skills:hover {
+            background-color: #219EBC;
+            border-color: #023047;
+            border-width: thick;
+            transition: 0.2s;
+        }
+
+        .image {
+            padding-top: 50px;
+            padding-right: 30px;
+            padding-bottom: 50px;
+            padding-left: 80px;
+        }
+
+        .fade-in1 {
+            opacity: 0;
+            transition: opacity 250ms;
+        }
+
+        .fade-in1.appear {
+            opacity: 1;
+        }
+
+        .fade-in2 {
+            opacity: 0;
+            transition: opacity 250ms ease-in;
+        }
+
+        .fade-in2.appear {
+            opacity: 1;
+        }
+
+        .fade-in3 {
+            opacity: 0;
+            transition: opacity 250ms;
+
+        }
+
+        .fade-in3.appear {
+            opacity: 1;
+        }
+
+        p {
+            font-family: 'Dosis', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Raleway', sans-serif;
+            font-family: 'Roboto Condensed', sans-serif;
+            color: #FFB703;
+            font-size: 30px;
+        }
+
+        .additional-info {
+            /* margin-top: 5vh; */
+            padding: 5px;
+            display: block;
+            width: 90vw;
+            padding: 5px;
+            border-radius: 10px;
+            border-style: double;
+            border-color: #219EBC;
+            border-width: thick;
+            background-color: #023047;
+            padding: 20px;
+            overflow: scroll;
+            margin-right: 5vw;
+            float: center;
+            margin-left: 5vw;
+            display: inline-block;
+        }
+
+        .additional-info:hover {
+            background-color: #219EBC;
+            border-color: #023047;
+            border-width: thick;
+            transition: 0.2s;
+        }
+
+        /*can divide this up into classes for headers, etc*/
+        a:link {
+            color: #FB8500;
+            ;
+        }
+
+        a:visited {
+            color: #FB8500;
+            ;
+        }
+
+        a:hover {
+            color: #FFB703;
+        }
+
+        a:active {
+            color: #FB8500;
+            ;
+        }
+
+        a:link,
+        a:visited {
+            text-decoration: none;
+        }
+
+        .fade-in2 {
+            opacity: 0;
+            transition: opacity 250ms ease-in;
+        }
+
+        .fade-in2.appear {
+            opacity: 1;
+        }
+
+        .fade-in3 {
+            opacity: 0;
+            transition: opacity 250ms;
+
+        }
+
+        .fade-in3.appear {
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>HONORS</h1>
+    <div class="skills" style="height: 30vh;">
+        <h2> <a href="https://www.aspirations.org/2023-national-aspirations-in-computing-award-recipients-announced/">
+                NCWIT AiC 2023 National Honorable Mention </a> </h2>
+        <p> Awarded to 360 women/nonbinary technology enthusiasts from all over the country who have displayed
+            exceptional achievement, aptitude, engagement, and initiative in computing. </p>
+    </div>
+    <div class="about-me" style="height: 30vh;""> <h2> <a href = "
+        https://education.ti.com/en/promotion/codescontest/2021/"> 2021 Texas Instruments Codes Contest </a> </h2>
+        <p> One of five teams who recieved an honorable mention in the finalist round, and selected from 64 teams
+            through four rounds of development in the contest. </p>
+    </div>
+    <div class="skills" style="height: 30vh;""> <a href = " https://www.aspirations.org/people/shriya-b/98595/">
+        <h2> NCWIT AiC 2023 Colorado Affiliate Winner </a> </h2>
+        <p> Awarded to high achieving women/non binary tech enthusiasts in Colorado who have demonstrated a notable
+            aptitude, engagement, and achievement with computing. </p>
+    </div>
+    <div class="fade-in2 about-me" style="height: 30vh;""> <h2> MHacks 2023 optiMize Social Impact Award: 3rd Place </a> </h2> <p> Awarded $200 for our civic-engagement focused website, OneVote. </p></div>
+  
+  <div class = " fade-in2 skills" style="height: 30vh;""> <h2> Colorado Seal of Biliteracy Endorsement in Spanish </h2> <p> Awarded to students who have taken Spanish and English through Level 5 and maintained an average GPA of 3.0+ in both English and Spanish courses. </p></div>
+  
+ 
+
+  <script src=" script.js">
+</script>
+</body>
+
+</html>

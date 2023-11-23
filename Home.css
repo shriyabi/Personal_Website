@@ -1,0 +1,235 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+
+body {
+    background-color: #023047;
+    /*#0365A6;*/
+    overflow: scroll;
+}
+
+.title {
+    margin-top: 35vh;
+    margin-bottom: 50vh;
+}
+
+h1 {
+    text-align: center;
+    color: #dcf4fc;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 80px;
+}
+
+.line-1 {
+    position: center;
+    top: 50%;
+    width: 80em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255, 255, 255, .75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+    color: #8ECAE6;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 90px;
+}
+
+/* Animation */
+.anim-typewriter {
+    animation: typewriter 2s steps(44) 1s 1 normal both,
+        blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 8em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: #FB8500;
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}
+
+h2 {
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #FB8500;
+    padding: 5px;
+    font-size: 50px;
+}
+
+.about-me {
+    padding: 5px;
+    display: inline-block;
+    width: 60vw;
+    padding: 5px;
+    margin-top: 5vh;
+    border-radius: 10px;
+    border-style: double;
+    border-color: #219EBC;
+    border-width: thick;
+    background-color: #023047;
+    padding: 20px;
+    overflow: scroll;
+    align-self: left;
+    margin-left: 5vw;
+
+}
+
+.about-me:hover {
+    background-color: #023047;
+    color: #8ECAE6;
+    border-color: #8ECAE6;
+    transition: 0.2s;
+}
+
+.about-me:hover {
+    background-color: #219EBC;
+    border-color: #023047;
+    border-width: thick;
+    transition: 0.2s;
+}
+
+
+.skills {
+    margin-top: 5vh;
+    padding: 5px;
+    display: block;
+    width: 30vw;
+    padding: 5px;
+    border-radius: 10px;
+    border-style: double;
+    border-color: #219EBC;
+    border-width: thick;
+    background-color: #023047;
+    padding: 20px;
+    overflow: scroll;
+    align-self: right;
+    text-align: right;
+    margin-right: 5vw;
+    float: right;
+
+}
+
+
+.skills:hover {
+    background-color: #219EBC;
+    border-color: #023047;
+    border-width: thick;
+    transition: 0.2s;
+}
+
+.skills:hover {
+    background-color: #219EBC;
+    border-color: #023047;
+    border-width: thick;
+    transition: 0.2s;
+}
+
+
+
+.fade-in1 {
+    opacity: 0;
+    transition: opacity 250ms;
+    /*transition-delay: 2s; */
+
+}
+
+.fade-in1.appear {
+    opacity: 1;
+}
+
+.fade-in2 {
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+
+.fade-in2.appear {
+    opacity: 1;
+}
+
+.fade-in3 {
+    opacity: 0;
+    transition: opacity 250ms;
+
+}
+
+.fade-in3.appear {
+    opacity: 1;
+}
+
+p {
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #FFB703;
+    font-size: 30px;
+}
+
+.additional-info {
+    margin-top: 5vh;
+    padding: 5px;
+    display: block;
+    width: 90vw;
+    padding: 5px;
+    border-radius: 10px;
+    border-style: double;
+    border-color: #219EBC;
+    border-width: thick;
+    background-color: #023047;
+    padding: 20px;
+    overflow: scroll;
+    margin-right: 5vw;
+    float: center;
+    margin-left: 5vw;
+}
+
+.additional-info:hover {
+    background-color: #219EBC;
+    border-color: #023047;
+    border-width: thick;
+    transition: 0.2s;
+}
+
+a:link {
+    color: #FB8500;
+}
+
+a:visited {
+    color: #FB8500;
+}
+
+a:hover {
+    color: #FFB703;
+}
+
+a:active {
+    color: #FB8500;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
